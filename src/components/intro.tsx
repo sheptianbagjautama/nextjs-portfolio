@@ -9,10 +9,16 @@ import { FaGithubSquare } from "react-icons/fa";
 // Animations
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
+import { useSectionInView } from "@/lib/useInView";
 
 const Intro = () => {
+  const { ref } = useSectionInView("#home", 0.5);
   return (
-    <section id="home" className="mb-28 max-w-[75rem] text-center sm:mb-0">
+    <section
+      ref={ref}
+      id="home"
+      className="mb-28 max-w-[75rem] text-center sm:mb-0"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
