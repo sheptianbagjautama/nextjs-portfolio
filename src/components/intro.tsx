@@ -32,13 +32,14 @@ const Intro = () => {
             }}
           >
             <Image
-              src="/boy.png"
+              src="/tian.png"
               width={480}
               height={480}
               alt=""
               quality={100}
               priority={true}
               className="rounded-full shadow-xl object-cover"
+              // className="object-cover"
             />
           </motion.div>
           <motion.span
@@ -66,7 +67,7 @@ const Intro = () => {
       >
         <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
           <span className="font-medium !leading-[1.5]">
-            Grow your business with a new website.
+            Hi everyone, I'm Tian, and I am a fullstack developer"
           </span>
           <p className="text-[14px]">
             Frontend is a full-service creative studio createing beautiful
