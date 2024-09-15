@@ -35,7 +35,9 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
         initial="visible"
         whileTap="tap"
         whileHover="hover"
-        className="bg-white w-[3rem] h-[3rem] drop-shadow backdrop-blur-[0.5rem] border border-slate-400 dark:border-white border-opacity-40 shadow-2xl rounded-full flex items-center justify-center dark:bg-gray-950"
+        className="bg-white 
+        w-[3rem] h-[3rem] drop-shadow backdrop-blur-[0.5] rounded-full flex items-center justify-center
+        outline-none  dark:border-white border-opacity-40 shadow-2xl  dark:bg-gray-950"
       >
         <Hamburger toggle={setIsOpen} toggled={isOpen} size={20} />
       </motion.button>
