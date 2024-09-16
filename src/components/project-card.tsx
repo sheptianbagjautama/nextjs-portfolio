@@ -53,7 +53,6 @@ const Project = ({
           className="absolute sm:block sm:top-8 sm:-right-32 sm:left-auto sm:rounded-t-lg shadow-2xl
           m-auto left-0 right-0 bottom-0
           text-center
-          pb-2 
           sm:pb-0
           sm:transition
           sm:group-hover:scale-[1.04]
