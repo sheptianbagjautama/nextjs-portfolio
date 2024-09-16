@@ -9,7 +9,10 @@ export const links:Link[] = [
         nameEng:"About",
         hash:"#about"
     },
-    
+    {
+        nameEng:"Experience",
+        hash:"#experience"
+    },
     {
         nameEng:"Skills",
         hash:"#skills"
