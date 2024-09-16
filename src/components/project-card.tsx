@@ -9,7 +9,7 @@ const Project = ({
   title,
   description,
   imageUrl,
-  link,
+  // link,
   tags,
 }: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);

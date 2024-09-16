@@ -57,17 +57,17 @@ const About = () => {
                     courses and eBooks from various sources, one of them being
                     Udemy, though I usually learn for free from YouTube.{" "}
                     <span className="font-bold">
-                      I’m always eager to learn new things.
+                      I&apos;m always eager to learn new things.
                     </span>{" "}
-                    Currently, I’ve been working at PT. Nextvibes Mitra Global
-                    for the
+                    Currently, I&apos;ve been working at PT. Nextvibes Mitra
+                    Global for the
                     <span className="font-bold">
                       {" "}
                       past 5 years as a Full Stack Developer
                     </span>
                     , and{" "}
                     <span className="font-bold">
-                      I’m looking for a full-time position as a Software
+                      I&apos;m looking for a full-time position as a Software
                       Developer.
                     </span>
                   </p>
@@ -91,8 +91,8 @@ const About = () => {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm sm:text-lg text-gray-700 dark:text-white/70">
-                    When I’m not coding, I enjoy watching movies. Every day, I
-                    dedicate time to{" "}
+                    When I&apos;m not coding, I enjoy watching movies. Every
+                    day, I dedicate time to{" "}
                     <span className="font-bold">learning new things</span>,
                     especially in the field of programming.
                   </p>

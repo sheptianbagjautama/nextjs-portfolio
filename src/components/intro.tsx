@@ -66,7 +66,7 @@ const Intro = () => {
       >
         <h1 className="mb-10 mt-4 md:px-4 px-10 text-xl sm:text-4xl">
           <span className="md:font-medium !leading-[1.5]">
-            Hello, I'm Tian. I'm a fullstack developer
+            Hello, I&apos;m Tian. I&apos;m a fullstack developer
           </span>
           <p className="text-sm md:text-lg">
             with 5 years of experience. I enjoy building sites & apps.
