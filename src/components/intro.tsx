@@ -1,15 +1,14 @@
 "use client";
 
-import { Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 // Animations
+import { useSectionInView } from "@/lib/useInView";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
-import { useSectionInView } from "@/lib/useInView";
+import { HiDownload } from "react-icons/hi";
 
 const Intro = () => {
   const { ref } = useSectionInView("#home", 0.5);
@@ -17,7 +16,7 @@ const Intro = () => {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[75rem] text-center sm:mb-0"
+      className="max-w-[75rem] scroll-mt-28 text-center sm:mb-0"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -38,7 +37,7 @@ const Intro = () => {
               alt=""
               quality={100}
               priority={true}
-              className="rounded-full shadow-xl object-cover"
+              className="rounded-full shadow-xl object-cover max-w-sm md:max-w-md"
               // className="object-cover"
             />
           </motion.div>
@@ -65,13 +64,12 @@ const Intro = () => {
         damping={1e-1}
         triggerOnce={true}
       >
-        <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
-          <span className="font-medium !leading-[1.5]">
-            Hi everyone, I'm Tian, and I am a fullstack developer"
+        <h1 className="mb-10 mt-4 md:px-4 px-10 text-xl sm:text-4xl">
+          <span className="md:font-medium !leading-[1.5]">
+            Hello, I'm Tian. I'm a fullstack developer
           </span>
-          <p className="text-[14px]">
-            Frontend is a full-service creative studio createing beautiful
-            digital experiences and products.
+          <p className="text-sm md:text-lg">
+            with 5 years of experience. I enjoy building sites & apps.
           </p>
         </h1>
       </Fade>
@@ -82,28 +80,41 @@ const Intro = () => {
         transition={{
           delay: 0.1,
         }}
-        className="flex sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
+        className="flex flex-wrap sm:flex-row items-center justify-center gap-4 px-4  text-sm md:text-lg font-normal"
       >
         <Link
-          href="#"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition"
+          href="https://wa.me/+6287824392239"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition dark:text-white/60"
+          target="_blank"
         >
-          Connect <Mail color="#9ca3af" />
+          Contact me here{""}
+          <BsWhatsapp className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
           href="#"
           target="_blank"
-          className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition dark:text-white/60"
         >
+          Download CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/sheptian-bagja-utama-988a7515a/"
+          target="_blank"
+          className=" bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        >
+          <span className="sm:hidden">LinkedIn</span>
           <BsLinkedin />
         </a>
         <a
-          href="#"
+          href="https://github.com/sheptianbagjautama"
           target="_blank"
-          className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className=" bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
-          <FaGithubSquare />
+          <span className="sm:hidden">Github</span>
+          <BsGithub />
         </a>
       </motion.div>
     </section>

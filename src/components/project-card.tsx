@@ -26,13 +26,13 @@ const Project = ({
       style={{ scale: scaleProgress, opacity: opacityProgress }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-white max-w-[42rem] border border-black-5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white/70 dark:bg-white/10 dark:hover:bg-white/20">
+      <section className="h-[32rem] bg-white  max-w-[50rem] sm:max-w-[42rem] border border-black-5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[24rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white/70 dark:bg-white/10 dark:hover:bg-white/20">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-          <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+          <h3 className="text-md font-semibold">{title}</h3>
+          <p className="mt-2 text-sm  leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-2">
             {tags.map((tag, index) => (
               <li
                 key={index}
@@ -50,18 +50,23 @@ const Project = ({
           quality={95}
           width={400}
           height={100}
-          className="absolute hidden sm:block top-8 -right-40 rounded-t-lg shadow-2xl
-          transition
-          group-hover:scale-[1.04]
-          group-hover:-translate-x-3
-          group-hover:translate-y-3
-          group-hover:-rotate-2
+          className="absolute sm:block sm:top-8 sm:-right-32 sm:left-auto sm:rounded-t-lg shadow-2xl
+          m-auto left-0 right-0 bottom-0
+          text-center
+          pb-2 
+          sm:pb-0
+          sm:transition
+          sm:group-hover:scale-[1.04]
+          sm:group-hover:-translate-x-3
+          sm:group-hover:translate-y-3
+          sm:group-hover:-rotate-2
 
-          group-even:group-hover:translate-x-3
-          group-even:group-hover:translate-y-3
-          group-even:group-hover:rotate-2
+          sm:group-even:group-hover:translate-x-3
+          sm:group-even:group-hover:translate-y-3
+          sm:group-even:group-hover:rotate-2
 
-          group-even:right-[initial] group-even:-left-40
+          sm:group-even:right-[initial] 
+          sm:group-even:-left-32
           
           "
         />
