@@ -9,8 +9,8 @@ const Home = () => {
     <main className="flex flex-col items-center pt-20 md:pt-28 px-4">
       <Intro />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
       <Contact />
     </main>
   );
