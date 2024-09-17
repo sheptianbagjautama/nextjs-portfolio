@@ -58,7 +58,7 @@ export const projectsData:ProjectInfo[] = [
       description:
         "The jewelry retail software for Serasi Gold Gold Shop offers many features, such as tray management, product management, sales tracking, credit handling, buyback options, reporting, and more.",
       tags: ["ASP.NET Web API", "Angular","SQL Server"],
-      imageUrl: "/cuan.jpg",
+      imageUrl: "/serasi.jpg",
       link:"#"
     },
     {
