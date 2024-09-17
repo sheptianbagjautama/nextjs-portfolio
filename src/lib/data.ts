@@ -28,14 +28,7 @@ export const links:Link[] = [
 ]
 
 export const projectsData:ProjectInfo[] = [
-    {
-      title: "BAN PAUD & PNDF Province",
-      description:
-        "The system management for BAN PAUD & PNDF for the Provincial Government includes various features such as reporting, bookkeeping, budget realization, physical realization, proposals, and attendance management.",
-      tags: ["Laravel", "Jquery"],
-      imageUrl: "/banpaud.jpg",
-      link:"#"
-    },
+ 
     {
       title: "Seller Center Cuan",
       description:
@@ -50,6 +43,30 @@ export const projectsData:ProjectInfo[] = [
         "The jewelry retail software for Gold Shop offers many features, such as tray management, product management, sales tracking, credit handling, buyback options, reporting, and more.",
       tags: ["ASP.NET Web API", "Angular","SQL Server"],
       imageUrl: "/cuan.jpg",
+      link:"#"
+    },
+    {
+      title: "Cuan Alora Gold Shop",
+      description:
+        "The jewelry retail software for Alora Gold Shop offers many features, such as tray management, product management, sales tracking, credit handling, buyback options, reporting, and more.",
+      tags: ["ASP.NET Web API", "Angular","SQL Server"],
+      imageUrl: "/alora.jpg",
+      link:"#"
+    },
+    {
+      title: "Cuan Serasi Gold Shop",
+      description:
+        "The jewelry retail software for Serasi Gold Gold Shop offers many features, such as tray management, product management, sales tracking, credit handling, buyback options, reporting, and more.",
+      tags: ["ASP.NET Web API", "Angular","SQL Server"],
+      imageUrl: "/cuan.jpg",
+      link:"#"
+    },
+    {
+      title: "BAN PAUD & PNDF Province",
+      description:
+        "The system management for BAN PAUD & PNDF for the Provincial Government includes various features such as reporting, bookkeeping, budget realization, physical realization, proposals, and attendance management.",
+      tags: ["Laravel", "Jquery"],
+      imageUrl: "/banpaud.jpg",
       link:"#"
     },
     {
@@ -92,14 +109,7 @@ export const projectsData:ProjectInfo[] = [
       imageUrl: "/lakuemas.jpg",
       link:"#"
     },
-    {
-      title: "Cuan Alora Gold Shop",
-      description:
-        "The jewelry retail software for Alora Gold Shop offers many features, such as tray management, product management, sales tracking, credit handling, buyback options, reporting, and more.",
-      tags: ["ASP.NET Web API", "Angular","SQL Server"],
-      imageUrl: "/alora.jpg",
-      link:"#"
-    },
+    
     {
       title: "Cuan Bhinneka Gold Shop",
       description:
@@ -196,14 +206,7 @@ export const projectsData:ProjectInfo[] = [
       imageUrl: "/cuan.jpg",
       link:"#"
     },
-    {
-      title: "Cuan Serasi Gold Shop",
-      description:
-        "The jewelry retail software for Serasi Gold Gold Shop offers many features, such as tray management, product management, sales tracking, credit handling, buyback options, reporting, and more.",
-      tags: ["ASP.NET Web API", "Angular","SQL Server"],
-      imageUrl: "/cuan.jpg",
-      link:"#"
-    },
+    
     {
       title: "Cuan Sugeng Gold Shop",
       description:
