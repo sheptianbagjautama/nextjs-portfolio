@@ -34,7 +34,7 @@ export const projectsData:ProjectInfo[] = [
       "Slicing Figma Nutrition App into Web",
     tags: ["React, Tailwind CSS"],
     imageUrl: "/groceries.png",
-    link:"https://github.com/sheptianbagjautama/react-slicing-groceries/blob/main/README.md"
+    link:"https://react-slicing-groceries.vercel.app"
   },
   {
     title: "Slicing Nutrition App",
