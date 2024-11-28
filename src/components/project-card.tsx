@@ -1,6 +1,7 @@
 import { ProjectInfo } from "@/lib/types";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { useRef } from "react";
 
 type ProjectProps = ProjectInfo;
@@ -9,7 +10,7 @@ const Project = ({
   title,
   description,
   imageUrl,
-  // link,
+  link,
   tags,
 }: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -42,6 +43,15 @@ const Project = ({
               </li>
             ))}
           </ul>
+          {link != "#" && (
+            <Link
+              href={link}
+              className="text-xs w-36 justify-center mt-4 group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition dark:text-white/60"
+              target="_blank"
+            >
+              Link / Github
+            </Link>
+          )}
         </div>
 
         <Image

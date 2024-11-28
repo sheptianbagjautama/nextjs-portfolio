@@ -28,7 +28,30 @@ export const links:Link[] = [
 ]
 
 export const projectsData:ProjectInfo[] = [
- 
+  {
+    title: "Slicing Groceries App",
+    description:
+      "Slicing Figma Nutrition App into Web",
+    tags: ["React, Tailwind CSS"],
+    imageUrl: "/groceries.png",
+    link:"https://github.com/sheptianbagjautama/react-slicing-groceries/blob/main/README.md"
+  },
+  {
+    title: "Slicing Nutrition App",
+    description:
+      "Slicing Figma Nutrition App into Web",
+    tags: ["HTML, Tailwind CSS, Jquery"],
+    imageUrl: "/nutrition.png",
+    link:"https://github.com/sheptianbagjautama/slicing-website-nutrisi"
+  },
+    {
+      title: "Slicing Shopee Mall Detail",
+      description:
+        "Slicing Figma Shopee Mall detail product page into Web",
+      tags: ["HTML, Tailwind CSS, Jquery"],
+      imageUrl: "/shopee.png",
+      link:"https://github.com/sheptianbagjautama/slicing-shopee-product"
+    },
     {
       title: "Seller Center Cuan",
       description:
