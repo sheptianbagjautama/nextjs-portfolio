@@ -29,6 +29,22 @@ export const links:Link[] = [
 
 export const projectsData:ProjectInfo[] = [
   {
+    title: "Laravel Pharmacy App",
+    description:
+      "Laravel Pharmacy App",
+    tags: ["Laravel, Tailwind CSS"],
+    imageUrl: "/apotek1.png",
+    link:"https://github.com/sheptianbagjautama/laravel-apotek/tree/main"
+  },
+  {
+    title: "Slicing Furniture Website",
+    description:
+      "Slicing Figma Furniture Website Design into Web",
+    tags: ["HTML, Tailwind CSS"],
+    imageUrl: "/furniture_website.jpg",
+    link:"https://github.com/sheptianbagjautama/slicing-website-furniture"
+  },
+  {
     title: "Slicing Groceries App",
     description:
       "Slicing Figma Nutrition App into Web",
