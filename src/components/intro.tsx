@@ -38,7 +38,6 @@ const Intro = () => {
               quality={100}
               priority={true}
               className="rounded-full shadow-xl object-cover max-w-sm md:max-w-md"
-              // className="object-cover"
             />
           </motion.div>
           <motion.span
