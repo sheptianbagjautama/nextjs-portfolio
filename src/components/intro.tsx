@@ -91,7 +91,7 @@ const Intro = () => {
         </Link>
 
         <a
-          href="/cv_pdf"
+          href="/cv.pdf"
           download
           // target="_blank"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition dark:text-white/60"
