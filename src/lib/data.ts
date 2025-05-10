@@ -33,7 +33,7 @@ export const projectsData:ProjectInfo[] = [
     description:
       "Laravel Pharmacy App",
     tags: ["Laravel, Tailwind CSS"],
-    imageUrl: "/apotek1.png",
+    imageUrl: "/apotek_1.png",
     link:"https://github.com/sheptianbagjautama/laravel-apotek/tree/main"
   },
   {
